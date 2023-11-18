@@ -22,6 +22,6 @@ go run fetch.go https://go.dev/
 
 [x] The function call io.Copy(dst, src) reads from src and writes to dst. Use it instead of ioutil.ReadAll to copy the response body to os.Stdout without requiring a buffer large enough to hold the entire stream. Be sure to check the error result of io.Copy.
 
-[ ] Modify fetch to add the prefix http:// to each argument URL if it is missing. You might want to use strings.HasPrefix.
+[x] Modify fetch to add the prefix http:// to each argument URL if it is missing. You might want to use strings.HasPrefix.
 
-[ ] Modify fetch to also print the HTTP status code, found in resp.Status.
+[x] Modify fetch to also print the HTTP status code, found in resp.Status.
